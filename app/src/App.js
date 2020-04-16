@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import ShibeImage from './components/ShibeImage'
 
 function App() {
   return (
