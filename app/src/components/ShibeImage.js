@@ -11,7 +11,7 @@ const ShibeImage = props => {
     return (
         <div>
             <h1>Get a dope image</h1>
-            {props.isLoading && <Loader type="Puff" color="#00BFFF" height={80} width={80} />}
+            {props.isLoading && <Loader type="Puff" color="#00BFFF" height={80} width={80} timeout={3000} />}
             {props.stuff && <img src={props.stuff} alt="img" />}  
         </div>
     );
